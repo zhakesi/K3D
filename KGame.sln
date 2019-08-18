@@ -1,0 +1,117 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KGame", "KGame\KGame.vcxproj", "{27E686F5-1952-4497-884B-581BC04039D4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KCore", "KCore\KCore.vcxproj", "{E0F7F4B7-4DC6-47E3-AAB2-1514884FEF09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Include", "Include", "{E5CBA895-2EDC-49B3-B4D1-7EE089C65826}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "KCore", "KCore", "{71CA3E75-8DBC-4D42-8998-4CFCE9A98DD0}"
+	ProjectSection(SolutionItems) = preProject
+		Include\KCore\KBaseApplication.h = Include\KCore\KBaseApplication.h
+		Include\KCore\KCore.h = Include\KCore\KCore.h
+		Include\KCore\KDef.h = Include\KCore\KDef.h
+		Include\KCore\KIApplication.h = Include\KCore\KIApplication.h
+		Include\KCore\KImage.h = Include\KCore\KImage.h
+		Include\KCore\KIRuntime.h = Include\KCore\KIRuntime.h
+		Include\KCore\KWindowApplication.h = Include\KCore\KWindowApplication.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "KGraphic", "KGraphic", "{8E3D12E4-3BEF-46C9-AAAA-0BE803996660}"
+	ProjectSection(SolutionItems) = preProject
+		Include\KGraphic\KCamera.h = Include\KGraphic\KCamera.h
+		Include\KGraphic\KGLWindowApplication.h = Include\KGraphic\KGLWindowApplication.h
+		Include\KGraphic\KGraphic.h = Include\KGraphic\KGraphic.h
+		Include\KGraphic\KMaterial.h = Include\KGraphic\KMaterial.h
+		Include\KGraphic\KMesh.h = Include\KGraphic\KMesh.h
+		Include\KGraphic\KModel.h = Include\KGraphic\KModel.h
+		Include\KGraphic\KScene.h = Include\KGraphic\KScene.h
+		Include\KGraphic\KShader.h = Include\KGraphic\KShader.h
+		Include\KGraphic\KTexture.h = Include\KGraphic\KTexture.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PowerVR", "PowerVR", "{7B4BFDFF-F43B-4C52-9B41-D1EABAFD8596}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KGraphic", "KGraphic\KGraphic.vcxproj", "{7FCE7781-A061-409A-96D9-F7CB3EF84239}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KMath", "KMath\KMath.vcxproj", "{0D31DF73-66DE-45BB-8C05-14E489B1E194}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "KMath", "KMath", "{D9863424-A1AE-4471-B353-3C17AE4D98A3}"
+	ProjectSection(SolutionItems) = preProject
+		Include\KMath\KMath.h = Include\KMath\KMath.h
+		Include\KMath\KMatrix.h = Include\KMath\KMatrix.h
+		Include\KMath\KMK.h = Include\KMath\KMK.h
+		Include\KMath\KVectX.h = Include\KMath\KVectX.h
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KFile", "KFile\KFile.vcxproj", "{2C7102E0-6E12-4E4A-9A3D-E85B4E5D68FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "KFile", "KFile", "{46074F09-4D0A-4F88-BF04-10A9C227DFC0}"
+	ProjectSection(SolutionItems) = preProject
+		Include\KFile\KAssimpFile.h = Include\KFile\KAssimpFile.h
+		Include\KFile\KPNGFile.h = Include\KFile\KPNGFile.h
+		Include\KFile\KStringFile.h = Include\KFile\KStringFile.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27E686F5-1952-4497-884B-581BC04039D4}.Debug|x64.ActiveCfg = Debug|x64
+		{27E686F5-1952-4497-884B-581BC04039D4}.Debug|x64.Build.0 = Debug|x64
+		{27E686F5-1952-4497-884B-581BC04039D4}.Debug|x86.ActiveCfg = Debug|x64
+		{27E686F5-1952-4497-884B-581BC04039D4}.Release|x64.ActiveCfg = Release|x64
+		{27E686F5-1952-4497-884B-581BC04039D4}.Release|x64.Build.0 = Release|x64
+		{27E686F5-1952-4497-884B-581BC04039D4}.Release|x86.ActiveCfg = Release|x64
+		{E0F7F4B7-4DC6-47E3-AAB2-1514884FEF09}.Debug|x64.ActiveCfg = Debug|x64
+		{E0F7F4B7-4DC6-47E3-AAB2-1514884FEF09}.Debug|x64.Build.0 = Debug|x64
+		{E0F7F4B7-4DC6-47E3-AAB2-1514884FEF09}.Debug|x86.ActiveCfg = Debug|Win32
+		{E0F7F4B7-4DC6-47E3-AAB2-1514884FEF09}.Debug|x86.Build.0 = Debug|Win32
+		{E0F7F4B7-4DC6-47E3-AAB2-1514884FEF09}.Release|x64.ActiveCfg = Release|x64
+		{E0F7F4B7-4DC6-47E3-AAB2-1514884FEF09}.Release|x64.Build.0 = Release|x64
+		{E0F7F4B7-4DC6-47E3-AAB2-1514884FEF09}.Release|x86.ActiveCfg = Release|Win32
+		{E0F7F4B7-4DC6-47E3-AAB2-1514884FEF09}.Release|x86.Build.0 = Release|Win32
+		{7FCE7781-A061-409A-96D9-F7CB3EF84239}.Debug|x64.ActiveCfg = Debug|x64
+		{7FCE7781-A061-409A-96D9-F7CB3EF84239}.Debug|x64.Build.0 = Debug|x64
+		{7FCE7781-A061-409A-96D9-F7CB3EF84239}.Debug|x86.ActiveCfg = Debug|Win32
+		{7FCE7781-A061-409A-96D9-F7CB3EF84239}.Debug|x86.Build.0 = Debug|Win32
+		{7FCE7781-A061-409A-96D9-F7CB3EF84239}.Release|x64.ActiveCfg = Release|x64
+		{7FCE7781-A061-409A-96D9-F7CB3EF84239}.Release|x64.Build.0 = Release|x64
+		{7FCE7781-A061-409A-96D9-F7CB3EF84239}.Release|x86.ActiveCfg = Release|Win32
+		{7FCE7781-A061-409A-96D9-F7CB3EF84239}.Release|x86.Build.0 = Release|Win32
+		{0D31DF73-66DE-45BB-8C05-14E489B1E194}.Debug|x64.ActiveCfg = Debug|x64
+		{0D31DF73-66DE-45BB-8C05-14E489B1E194}.Debug|x64.Build.0 = Debug|x64
+		{0D31DF73-66DE-45BB-8C05-14E489B1E194}.Debug|x86.ActiveCfg = Debug|Win32
+		{0D31DF73-66DE-45BB-8C05-14E489B1E194}.Debug|x86.Build.0 = Debug|Win32
+		{0D31DF73-66DE-45BB-8C05-14E489B1E194}.Release|x64.ActiveCfg = Release|x64
+		{0D31DF73-66DE-45BB-8C05-14E489B1E194}.Release|x64.Build.0 = Release|x64
+		{0D31DF73-66DE-45BB-8C05-14E489B1E194}.Release|x86.ActiveCfg = Release|Win32
+		{0D31DF73-66DE-45BB-8C05-14E489B1E194}.Release|x86.Build.0 = Release|Win32
+		{2C7102E0-6E12-4E4A-9A3D-E85B4E5D68FF}.Debug|x64.ActiveCfg = Debug|x64
+		{2C7102E0-6E12-4E4A-9A3D-E85B4E5D68FF}.Debug|x64.Build.0 = Debug|x64
+		{2C7102E0-6E12-4E4A-9A3D-E85B4E5D68FF}.Debug|x86.ActiveCfg = Debug|x64
+		{2C7102E0-6E12-4E4A-9A3D-E85B4E5D68FF}.Release|x64.ActiveCfg = Release|x64
+		{2C7102E0-6E12-4E4A-9A3D-E85B4E5D68FF}.Release|x64.Build.0 = Release|x64
+		{2C7102E0-6E12-4E4A-9A3D-E85B4E5D68FF}.Release|x86.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{71CA3E75-8DBC-4D42-8998-4CFCE9A98DD0} = {E5CBA895-2EDC-49B3-B4D1-7EE089C65826}
+		{8E3D12E4-3BEF-46C9-AAAA-0BE803996660} = {E5CBA895-2EDC-49B3-B4D1-7EE089C65826}
+		{7B4BFDFF-F43B-4C52-9B41-D1EABAFD8596} = {8E3D12E4-3BEF-46C9-AAAA-0BE803996660}
+		{D9863424-A1AE-4471-B353-3C17AE4D98A3} = {E5CBA895-2EDC-49B3-B4D1-7EE089C65826}
+		{46074F09-4D0A-4F88-BF04-10A9C227DFC0} = {E5CBA895-2EDC-49B3-B4D1-7EE089C65826}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65D5D234-3898-41FD-827F-DD05F3A85373}
+	EndGlobalSection
+EndGlobal
